@@ -50,7 +50,7 @@ const ProductList: React.FC = () => {
       price: product.price,
       quantity: 1,
     });
-
+console.log("Cart response:", response.data);
     alert(`Added ${product.name} to cart!`);
   } catch (error: any) {
     console.error("Error adding to cart:", error);
@@ -98,5 +98,6 @@ const ProductList: React.FC = () => {
     </div>
   );
 };
+
 
 export default ProductList;
