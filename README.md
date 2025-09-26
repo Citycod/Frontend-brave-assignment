@@ -51,6 +51,7 @@ The app should now be running at http://localhost:5173 (default Vite port).
 
 🌐 Backend API
 This frontend expects a backend running on http://localhost:3000 with the following routes:
+backend repo: https://github.com/Citycod/Backend-Brave-Assignment.git
 
 POST /add-to-cart → Add item to user’s cart
 
@@ -61,14 +62,10 @@ Products list with add-to-cart button
 
 Cart view with total price
 
-✅ How to Deploy
-To deploy on Vercel:
-
-bash
-Copy code
-npm run build
+✅
 Then connect this repo to Vercel and deploy.
 
 👨‍💻 Author
 Edudje Wisdom Marvellous
+
 
